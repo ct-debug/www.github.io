@@ -6,7 +6,7 @@
   <link href="https://www.debugsrc.top/atom.xml" rel="self"/>
   
   <link href="https://www.debugsrc.top/"/>
-  <updated>2022-01-07T01:55:39.356Z</updated>
+  <updated>2022-01-07T07:21:46.641Z</updated>
   <id>https://www.debugsrc.top/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="https://www.debugsrc.top/2022/01/07/hello-world/"/>
-    <id>https://www.debugsrc.top/2022/01/07/hello-world/</id>
-    <published>2022-01-07T01:55:39.356Z</published>
-    <updated>2022-01-07T01:55:39.356Z</updated>
+    <title>hello world</title>
+    <link href="https://www.debugsrc.top/2022/01/01/hello-world/"/>
+    <id>https://www.debugsrc.top/2022/01/01/hello-world/</id>
+    <published>2021-12-31T16:00:00.000Z</published>
+    <updated>2022-01-07T07:21:46.641Z</updated>
     
     
       
@@ -34,6 +34,12 @@
     
     
     
+    <category term="Markdown" scheme="https://www.debugsrc.top/categories/Markdown/"/>
+    
+    
+    <category term="Typora" scheme="https://www.debugsrc.top/tags/Typora/"/>
+    
+    <category term="Markdown" scheme="https://www.debugsrc.top/tags/Markdown/"/>
     
   </entry>
   
