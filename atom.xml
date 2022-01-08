@@ -48,6 +48,33 @@
   </entry>
   
   <entry>
+    <title>CentOS8.2 ftp服务器搭建</title>
+    <link href="https://www.debugsrc.top/2019/01/01/centos-8.2-ftp-fu-wu-qi-da-jian/"/>
+    <id>https://www.debugsrc.top/2019/01/01/centos-8.2-ftp-fu-wu-qi-da-jian/</id>
+    <published>2018-12-31T16:00:00.000Z</published>
+    <updated>2022-01-08T12:38:00.112Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;CentOS-8-2-ftp服务器搭建&quot;&gt;&lt;a href=&quot;#CentOS-8-2-ftp服务器搭建&quot; class=&quot;headerlink&quot; title=&quot;CentOS 8.2 ftp服务器搭建&quot;&gt;&lt;/a&gt;CentOS 8.2 ftp服务器搭建&lt;/h1&gt;&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="环境搭建" scheme="https://www.debugsrc.top/categories/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
+    
+    
+    <category term="学习笔记" scheme="https://www.debugsrc.top/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="FTP" scheme="https://www.debugsrc.top/tags/FTP/"/>
+    
+  </entry>
+  
+  <entry>
     <title>CentOS上安装Docker引擎</title>
     <link href="https://www.debugsrc.top/2019/01/01/centos-shang-an-zhuang-docker-yin-qing/"/>
     <id>https://www.debugsrc.top/2019/01/01/centos-shang-an-zhuang-docker-yin-qing/</id>
@@ -76,62 +103,6 @@
     <category term="CentOS" scheme="https://www.debugsrc.top/tags/CentOS/"/>
     
     <category term="Docker" scheme="https://www.debugsrc.top/tags/Docker/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>kali Linux 2020版更新源及中文设置问题解决方案</title>
-    <link href="https://www.debugsrc.top/2019/01/01/kali-linux-2020-ban-geng-xin-yuan-ji-zhong-wen-she-zhi-wen-ti-jie-jue-fang-an/"/>
-    <id>https://www.debugsrc.top/2019/01/01/kali-linux-2020-ban-geng-xin-yuan-ji-zhong-wen-she-zhi-wen-ti-jie-jue-fang-an/</id>
-    <published>2018-12-31T16:00:00.000Z</published>
-    <updated>2022-01-08T14:22:05.141Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;kali-linux-2020版&quot;&gt;&lt;a href=&quot;#kali-linux-2020版&quot; class=&quot;headerlink&quot; title=&quot;kali linux 2020版&quot;&gt;&lt;/a&gt;kali linux 2020版&lt;/h1&gt;&lt;h2</summary>
-        
-      
-    
-    
-    
-    <category term="编程" scheme="https://www.debugsrc.top/categories/%E7%BC%96%E7%A8%8B/"/>
-    
-    
-    <category term="学习笔记" scheme="https://www.debugsrc.top/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-    <category term="kali" scheme="https://www.debugsrc.top/tags/kali/"/>
-    
-    <category term="Linux" scheme="https://www.debugsrc.top/tags/Linux/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>CentOS8.2 ftp服务器搭建</title>
-    <link href="https://www.debugsrc.top/2019/01/01/centos-8.2-ftp-fu-wu-qi-da-jian/"/>
-    <id>https://www.debugsrc.top/2019/01/01/centos-8.2-ftp-fu-wu-qi-da-jian/</id>
-    <published>2018-12-31T16:00:00.000Z</published>
-    <updated>2022-01-08T12:38:00.112Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;CentOS-8-2-ftp服务器搭建&quot;&gt;&lt;a href=&quot;#CentOS-8-2-ftp服务器搭建&quot; class=&quot;headerlink&quot; title=&quot;CentOS 8.2 ftp服务器搭建&quot;&gt;&lt;/a&gt;CentOS 8.2 ftp服务器搭建&lt;/h1&gt;&lt;h2</summary>
-        
-      
-    
-    
-    
-    <category term="环境搭建" scheme="https://www.debugsrc.top/categories/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
-    
-    
-    <category term="学习笔记" scheme="https://www.debugsrc.top/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-    <category term="FTP" scheme="https://www.debugsrc.top/tags/FTP/"/>
     
   </entry>
   
@@ -192,29 +163,31 @@
   </entry>
   
   <entry>
-    <title>类中的私有成员变量进行赋值和访问</title>
-    <link href="https://www.debugsrc.top/2019/01/01/lei-zhong-de-si-you-cheng-yuan-bian-liang-jin-xing-fu-zhi-he-fang-wen/"/>
-    <id>https://www.debugsrc.top/2019/01/01/lei-zhong-de-si-you-cheng-yuan-bian-liang-jin-xing-fu-zhi-he-fang-wen/</id>
+    <title>kali Linux 2020版更新源及中文设置问题解决方案</title>
+    <link href="https://www.debugsrc.top/2019/01/01/kali-linux-2020-ban-geng-xin-yuan-ji-zhong-wen-she-zhi-wen-ti-jie-jue-fang-an/"/>
+    <id>https://www.debugsrc.top/2019/01/01/kali-linux-2020-ban-geng-xin-yuan-ji-zhong-wen-she-zhi-wen-ti-jie-jue-fang-an/</id>
     <published>2018-12-31T16:00:00.000Z</published>
-    <updated>2022-01-08T14:17:57.579Z</updated>
+    <updated>2022-01-08T14:22:05.141Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;定义一个学生类-提供成员变量姓名和年龄，需要将成员变量私有化-提供对外公共访问的成员方法&quot;&gt;&lt;a href=&quot;#定义一个学生类-提供成员变量姓名和年龄，需要将成员变量私有化-提供对外公共访问的成员方法&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;h1 id=&quot;kali-linux-2020版&quot;&gt;&lt;a href=&quot;#kali-linux-2020版&quot; class=&quot;headerlink&quot; title=&quot;kali linux 2020版&quot;&gt;&lt;/a&gt;kali linux 2020版&lt;/h1&gt;&lt;h2</summary>
         
       
     
     
     
-    <category term="Java" scheme="https://www.debugsrc.top/categories/Java/"/>
+    <category term="编程" scheme="https://www.debugsrc.top/categories/%E7%BC%96%E7%A8%8B/"/>
     
     
     <category term="学习笔记" scheme="https://www.debugsrc.top/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
-    <category term="Java" scheme="https://www.debugsrc.top/tags/Java/"/>
+    <category term="kali" scheme="https://www.debugsrc.top/tags/kali/"/>
+    
+    <category term="Linux" scheme="https://www.debugsrc.top/tags/Linux/"/>
     
   </entry>
   
@@ -295,6 +268,33 @@
     
     
     <category term="编程" scheme="https://www.debugsrc.top/categories/%E7%BC%96%E7%A8%8B/"/>
+    
+    
+    <category term="学习笔记" scheme="https://www.debugsrc.top/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="Java" scheme="https://www.debugsrc.top/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>类中的私有成员变量进行赋值和访问</title>
+    <link href="https://www.debugsrc.top/2019/01/01/lei-zhong-de-si-you-cheng-yuan-bian-liang-jin-xing-fu-zhi-he-fang-wen/"/>
+    <id>https://www.debugsrc.top/2019/01/01/lei-zhong-de-si-you-cheng-yuan-bian-liang-jin-xing-fu-zhi-he-fang-wen/</id>
+    <published>2018-12-31T16:00:00.000Z</published>
+    <updated>2022-01-08T14:17:57.579Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;定义一个学生类-提供成员变量姓名和年龄，需要将成员变量私有化-提供对外公共访问的成员方法&quot;&gt;&lt;a href=&quot;#定义一个学生类-提供成员变量姓名和年龄，需要将成员变量私有化-提供对外公共访问的成员方法&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Java" scheme="https://www.debugsrc.top/categories/Java/"/>
     
     
     <category term="学习笔记" scheme="https://www.debugsrc.top/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
