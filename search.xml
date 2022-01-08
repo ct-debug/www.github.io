@@ -118,33 +118,6 @@
     
     
     <entry>
-      <title>Termux</title>
-      <link href="/2019/01/01/termux/"/>
-      <url>/2019/01/01/termux/</url>
-      
-        <content type="html"><![CDATA[<h4 id="更换国内源"><a href="#更换国内源" class="headerlink" title="更换国内源"></a>更换国内源</h4><p>更换Termux清华大学源, 加快软件包下载速度。</p><p>设置默认编辑器</p><pre class=" language-shell"><code class="language-shell">export EDITOR=vi</code></pre><p>编辑源文件</p><pre class=" language-shell"><code class="language-shell">apt edit-sources </code></pre><p>将原来的<a href="https://termux.net官方源替换为http//mirrors.tuna.tsinghua.edu.cn/termux">https://termux.net官方源替换为http://mirrors.tuna.tsinghua.edu.cn/termux</a></p><h4 id="安装基本工具"><a href="#安装基本工具" class="headerlink" title="安装基本工具"></a>安装基本工具</h4><pre class=" language-shell"><code class="language-shell">pkg updatepkg install vim curl wget git unzip unrar nmap pythonpip install sqlmap requests</code></pre><h4 id="管理员身份"><a href="#管理员身份" class="headerlink" title="管理员身份"></a>管理员身份</h4><p>手机没有 root,可利用proot工具来模拟某些需要 root 的环境</p><pre class=" language-shell"><code class="language-shell">pkg install proot</code></pre><p>然后终端下面输入:</p><pre class=" language-shell"><code class="language-shell">termux-chroot</code></pre><p>即可模拟root环境，在这个proot环境下面, 相当于是进入了home目录，可以很方便地进行一些配置。在管理员身份下，输入exit可回到普通用户身份。</p><p>参考：Termux 高级终端安装使用配置教程 url:<a href="https://blog.csdn.net/uuu987/article/details/86773791">https://blog.csdn.net/uuu987/article/details/86773791</a></p><h4 id="克隆metasploit"><a href="#克隆metasploit" class="headerlink" title="克隆metasploit"></a>克隆metasploit</h4><pre class=" language-shell"><code class="language-shell">cd /usrgit clone https://github.com/gushmazuko/metasploit_in_termux</code></pre><h4 id="安装metasploit"><a href="#安装metasploit" class="headerlink" title="安装metasploit"></a>安装metasploit</h4><pre class=" language-shell"><code class="language-shell">chmod +x *.sh && ./metasploit.sh</code></pre><p>参考url：<a href="https://www.bilibili.com/video/av930092985/">https://www.bilibili.com/video/av930092985/</a></p><h4 id="解决中文乱码问题"><a href="#解决中文乱码问题" class="headerlink" title="解决中文乱码问题"></a>解决中文乱码问题</h4><p>在home目录下, 新建.vimrc文件</p><pre class=" language-shell"><code class="language-shell">vim .vimrc</code></pre><p>添加内容如下:</p><pre class=" language-shell"><code class="language-shell">set fileencodings=utf-8,gb2312,gb18030,gbk,ucs-bom,cp936,latin1set enc=utf8set fencs=utf8,gbk,gb2312,gb18030</code></pre><p>然后source下变量:</p><pre class=" language-shell"><code class="language-shell">source .vimrc</code></pre>]]></content>
-      
-      
-      <categories>
-          
-          <category> 环境搭建 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 学习笔记 </tag>
-            
-            <tag> Termux </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>kali Linux 2020版更新源及中文设置问题解决方案</title>
       <link href="/2019/01/01/kali-linux-2020-ban-geng-xin-yuan-ji-zhong-wen-she-zhi-wen-ti-jie-jue-fang-an/"/>
       <url>/2019/01/01/kali-linux-2020-ban-geng-xin-yuan-ji-zhong-wen-she-zhi-wen-ti-jie-jue-fang-an/</url>
@@ -166,6 +139,33 @@
             <tag> kali </tag>
             
             <tag> Linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Termux</title>
+      <link href="/2019/01/01/termux/"/>
+      <url>/2019/01/01/termux/</url>
+      
+        <content type="html"><![CDATA[<h4 id="更换国内源"><a href="#更换国内源" class="headerlink" title="更换国内源"></a>更换国内源</h4><p>更换Termux清华大学源, 加快软件包下载速度。</p><p>设置默认编辑器</p><pre class=" language-shell"><code class="language-shell">export EDITOR=vi</code></pre><p>编辑源文件</p><pre class=" language-shell"><code class="language-shell">apt edit-sources </code></pre><p>将原来的<a href="https://termux.net官方源替换为http//mirrors.tuna.tsinghua.edu.cn/termux">https://termux.net官方源替换为http://mirrors.tuna.tsinghua.edu.cn/termux</a></p><h4 id="安装基本工具"><a href="#安装基本工具" class="headerlink" title="安装基本工具"></a>安装基本工具</h4><pre class=" language-shell"><code class="language-shell">pkg updatepkg install vim curl wget git unzip unrar nmap pythonpip install sqlmap requests</code></pre><h4 id="管理员身份"><a href="#管理员身份" class="headerlink" title="管理员身份"></a>管理员身份</h4><p>手机没有 root,可利用proot工具来模拟某些需要 root 的环境</p><pre class=" language-shell"><code class="language-shell">pkg install proot</code></pre><p>然后终端下面输入:</p><pre class=" language-shell"><code class="language-shell">termux-chroot</code></pre><p>即可模拟root环境，在这个proot环境下面, 相当于是进入了home目录，可以很方便地进行一些配置。在管理员身份下，输入exit可回到普通用户身份。</p><p>参考：Termux 高级终端安装使用配置教程 url:<a href="https://blog.csdn.net/uuu987/article/details/86773791">https://blog.csdn.net/uuu987/article/details/86773791</a></p><h4 id="克隆metasploit"><a href="#克隆metasploit" class="headerlink" title="克隆metasploit"></a>克隆metasploit</h4><pre class=" language-shell"><code class="language-shell">cd /usrgit clone https://github.com/gushmazuko/metasploit_in_termux</code></pre><h4 id="安装metasploit"><a href="#安装metasploit" class="headerlink" title="安装metasploit"></a>安装metasploit</h4><pre class=" language-shell"><code class="language-shell">chmod +x *.sh && ./metasploit.sh</code></pre><p>参考url：<a href="https://www.bilibili.com/video/av930092985/">https://www.bilibili.com/video/av930092985/</a></p><h4 id="解决中文乱码问题"><a href="#解决中文乱码问题" class="headerlink" title="解决中文乱码问题"></a>解决中文乱码问题</h4><p>在home目录下, 新建.vimrc文件</p><pre class=" language-shell"><code class="language-shell">vim .vimrc</code></pre><p>添加内容如下:</p><pre class=" language-shell"><code class="language-shell">set fileencodings=utf-8,gb2312,gb18030,gbk,ucs-bom,cp936,latin1set enc=utf8set fencs=utf8,gbk,gb2312,gb18030</code></pre><p>然后source下变量:</p><pre class=" language-shell"><code class="language-shell">source .vimrc</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> 环境搭建 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 学习笔记 </tag>
+            
+            <tag> Termux </tag>
             
         </tags>
       
