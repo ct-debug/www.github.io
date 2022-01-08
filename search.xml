@@ -259,33 +259,6 @@
     
     
     <entry>
-      <title>重写和重载,abstract(抽象类)和interface(接口),final,static关键字,多态</title>
-      <link href="/2019/01/01/chong-xie-he-chong-zai-abstract-chou-xiang-lei-he-interface-jie-kou-final-static-guan-jian-zi-duo-tai/"/>
-      <url>/2019/01/01/chong-xie-he-chong-zai-abstract-chou-xiang-lei-he-interface-jie-kou-final-static-guan-jian-zi-duo-tai/</url>
-      
-        <content type="html"><![CDATA[<h1 id="重写和重载"><a href="#重写和重载" class="headerlink" title="重写和重载"></a>重写和重载</h1><h3 id="方法重载（overload）："><a href="#方法重载（overload）：" class="headerlink" title="方法重载（overload）："></a>方法重载（overload）：</h3><blockquote><p>必须是同一个类；<br>方法名（也可以叫函数）一样；<br>参数类型不一样或参数数量或顺序不一样；<br>不能通过返回值来判断重载。</p></blockquote><h3 id="方法的重写（override）子类重写了父类的同名方法，两同两小一大原则："><a href="#方法的重写（override）子类重写了父类的同名方法，两同两小一大原则：" class="headerlink" title="方法的重写（override）子类重写了父类的同名方法，两同两小一大原则："></a>方法的重写（override）子类重写了父类的同名方法，两同两小一大原则：</h3><blockquote><p>方法名相同，参数类型相同；<br>子类返回类型是父类返回类型的子类；<br>子类抛出异常小于等于父类方法抛出异常；<br>子类访问权限大于等于父类方法访问权限。<br><img src="https://www.educoder.net/api/attachments/206833"></p></blockquote><blockquote><p><strong>在重写中，运用的是动态单分配，根据<code>new</code>的类型确定对象，从而确定调用的方法；</strong></p></blockquote><blockquote><p><strong>在重载中，运用的是静态多分配，根据静态类型确定对象，不能根据<code>new</code>的类型确定调用方法；</strong></p></blockquote><blockquote><p><strong>多态中， <code>Father f = new Son()</code>。</strong><br>成员变量：编译运行参考左边；<br>成员函数：编译看左边，运行看右边；<br>静态函数：编译运行看左边。</p></blockquote><p><strong><code>abstract</code>(抽象类)和<code>interface</code>(接口)</strong></p><h1 id="抽象类"><a href="#抽象类" class="headerlink" title="抽象类"></a>抽象类</h1><blockquote><p><strong>用 <code>abstract</code>修饰的类表示抽象类，抽象类位于继承树的抽象层，抽象类不能被实例化。</strong><br><strong>用 <code>abstract</code>修饰的方法表示抽象方法，抽象方法没有方法体。抽象方法用来描述系统具有什么功能，但不提供具体的实现，把具体实现留给继承该类的子类。</strong></p></blockquote><h3 id="抽象类特点："><a href="#抽象类特点：" class="headerlink" title="抽象类特点："></a>抽象类特点：</h3><blockquote><p>含有抽象方法的类必须声明为抽象类（不管其中是否有其他方法）；<br>抽象类可以没有抽象方法，可以有普通方法；<br>抽象类必须被继承，抽象方法必须被重写（若子类还是抽象类，不需要重写）；<br>抽象类不能被实例化（不能直接构造一个该类的对象）。</p></blockquote><h3 id="抽象方法特点："><a href="#抽象方法特点：" class="headerlink" title="抽象方法特点："></a>抽象方法特点：</h3><blockquote><p>在类中没有方法体（抽象方法只需声明，而不需实现某些功能）；<br>抽象类中的抽象方法必须被实现；<br>如果一个子类没有实现父类中的抽象方法，则子类也变成了一个抽象类。<br>接口 <code>interface</code> 中的方法默认为 <code>public abstract</code>（ <code>public</code> <code>abstract</code>可以省略），变量默认为 <code>public static final</code>；类中的方法全部都是抽象方法。只有声明没有实现，在不同类中有不同的方法实现。</p></blockquote><h3 id="不同点："><a href="#不同点：" class="headerlink" title="不同点："></a>不同点：</h3><blockquote><p>接口中只能包含抽象方法和默认方法，不能为普通方法提供方法实现；抽象类中可以包含普通方法；<br>接口里不能定义静态方法（ jdk1.8下可以定义static方法），抽象类可以定义静态方法；<br>接口中只能定义静态常量，不能定义普通成员变量；抽象类即可以定义变量又可以定义静态常量；<br>接口中不包含构造器，抽象类里可以包含构造器，抽象类中的构造器并不是用于创建对象，而是让其他子类调用这些构造器来完成抽象类的初始化操作；<br>接口里不能包含初始化块，但抽象类可以包含；<br>一个类最多只能有一个父类，包括抽象类；但一个类可以直接实现多个接口，通过实现多个接口可以弥补Java单继承的不足。</p></blockquote><h3 id="共同点："><a href="#共同点：" class="headerlink" title="共同点："></a>共同点：</h3><blockquote><p>接口和抽象类都不能被实例化，都位于继承树的顶端，用于被其他类实现的继承；<br>接口和抽象类都可以包含抽象方法，实现接口和继承抽象类的普通子类都必须实现这些方法。<br><img src="https://www.educoder.net/api/attachments/206834"></p></blockquote><p>#final 关键字</p><blockquote><p>final修饰的类，就是最终类，不能被继承。<br>final修饰的方法，就是最终方法，最终方法不能被重写。<br>final修饰一个引用变量时，是指引用变量不能变，引用变量所指向的对象中的内容还是可以改变的。修饰基本数据类型变量时，内容不能变。<br>final成员变量必须在初始化代码块或在构造器中初始化。</p></blockquote><h3 id="作用："><a href="#作用：" class="headerlink" title="作用："></a>作用：</h3><blockquote><p>final类：如果一个类不需要有子类，类的实现细节不允许改变，并且确信这个类不会再被扩展，那么就设计成 <code>final</code>类。<br>final方法：①把方法锁定，防止任何继承类修改它的意义和实现。②高效，编译器在遇到调用 <code>final</code>方法时候会转入内嵌机制，大大提升执行效率。</p></blockquote><p>#static 关键字</p><blockquote><p>static修饰的变量称为静态变量，静态变量属于整个类，而局部变量属于方法，只在该方法内有效。 <code>static</code>不能修饰局部变量。 <code>static</code>方法内部不能调用非静态方法。<br>静态变量只能在类主体中定义，不能在方法中定义；<br>static变量只会创建一份，不管创建几个对象，都共用一个变量。<br>类方法指被 <code>static</code>修饰的方法，无 this指针。其他的就是实例方法。类方法可以调用其他类的 <code>static</code>方法。</p></blockquote><h2 id="类方法和对象方法的区别："><a href="#类方法和对象方法的区别：" class="headerlink" title="类方法和对象方法的区别："></a>类方法和对象方法的区别：</h2><h3 id="类方法是属于整个类的，而实例方法是属于类的某个对象的。"><a href="#类方法是属于整个类的，而实例方法是属于类的某个对象的。" class="headerlink" title="类方法是属于整个类的，而实例方法是属于类的某个对象的。"></a>类方法是属于整个类的，而实例方法是属于类的某个对象的。</h3><blockquote><p><strong>由于类方法是属于整个类的，并不属于类的哪个对象，所以类方法的方法体中不能有与类的对象有关的内容。即类方法体有如下限制：</strong></p></blockquote><blockquote><p>类方法中不能引用对象变量；<br>类方法中不能调用类的对象方法；<br>在类方法中不能使用 <code>super</code>、 <code>this</code>关键字。（ <code>this</code>表示当前类的对象，由 <code>static</code>修饰的方法是类直接调用，不需要创建对象，所以不能用 <code>this</code>）；<br>类方法不能被覆盖。</p></blockquote><h3 id="与类方法相比，对象方法几乎没有什么限制："><a href="#与类方法相比，对象方法几乎没有什么限制：" class="headerlink" title="与类方法相比，对象方法几乎没有什么限制："></a>与类方法相比，对象方法几乎没有什么限制：</h3><blockquote><p>对象方法中可以引用对象变量，也可以引用类变量；<br>对象方法中可以调用类方法；<br>对象方法中可以使用 <code>super</code>、 <code>this</code>关键字。</p></blockquote><h3 id="static关键字的作用"><a href="#static关键字的作用" class="headerlink" title="static关键字的作用:"></a>static关键字的作用:</h3><blockquote><p>为某特定数据类型或对象分配单一的存储空间，而与创建对象的个数无关；实现某个方法或属性与类而不是对象关联在一起；<br>静态变量属于类，在内存中只有一个复制，只要静态变量所在的类被加载，这个静态变量就会被分配空间。</p></blockquote><h1 id="多态"><a href="#多态" class="headerlink" title="多态"></a>多态</h1><blockquote><p><strong>定义：不同类的对象对同一消息做出响应。同一消息可以根据发送对象的不同而采用多种不同的行为方式；</strong></p></blockquote><blockquote><p><strong>多态存在的三个必要条件：继承、重写、父类引用指向子类对象；</strong></p></blockquote><blockquote><p><strong>Java中多态的实现方式：接口实现，继承父类进行方法重写，同一个类中进行方法重载；</strong></p></blockquote><blockquote><p>父类引用指向子类对象，该引用不能再访问子类新增的成员。 <code>Animal cat = new Cat()</code>与直接 <code>new</code>一个父类实例( <code>Animal a = new Animal()</code>)的区别？<br>答：当父类是接口和抽象类时，不能实例化，只能运用多态，向上转型。普通类中，可以在子类中重写父类中的方法，这样就可以访问子类中的重写方法。</p></blockquote>]]></content>
-      
-      
-      <categories>
-          
-          <category> 编程 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 学习笔记 </tag>
-            
-            <tag> Java </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>类中的私有成员变量进行赋值和访问</title>
       <link href="/2019/01/01/lei-zhong-de-si-you-cheng-yuan-bian-liang-jin-xing-fu-zhi-he-fang-wen/"/>
       <url>/2019/01/01/lei-zhong-de-si-you-cheng-yuan-bian-liang-jin-xing-fu-zhi-he-fang-wen/</url>
@@ -334,6 +307,33 @@
             <tag> Linux </tag>
             
             <tag> samba </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>重写和重载,abstract(抽象类)和interface(接口),final,static关键字,多态</title>
+      <link href="/2019/01/01/chong-xie-he-chong-zai-abstract-chou-xiang-lei-he-interface-jie-kou-final-static-guan-jian-zi-duo-tai/"/>
+      <url>/2019/01/01/chong-xie-he-chong-zai-abstract-chou-xiang-lei-he-interface-jie-kou-final-static-guan-jian-zi-duo-tai/</url>
+      
+        <content type="html"><![CDATA[<h1 id="重写和重载"><a href="#重写和重载" class="headerlink" title="重写和重载"></a>重写和重载</h1><h3 id="方法重载（overload）："><a href="#方法重载（overload）：" class="headerlink" title="方法重载（overload）："></a>方法重载（overload）：</h3><blockquote><p>必须是同一个类；<br>方法名（也可以叫函数）一样；<br>参数类型不一样或参数数量或顺序不一样；<br>不能通过返回值来判断重载。</p></blockquote><h3 id="方法的重写（override）子类重写了父类的同名方法，两同两小一大原则："><a href="#方法的重写（override）子类重写了父类的同名方法，两同两小一大原则：" class="headerlink" title="方法的重写（override）子类重写了父类的同名方法，两同两小一大原则："></a>方法的重写（override）子类重写了父类的同名方法，两同两小一大原则：</h3><blockquote><p>方法名相同，参数类型相同；<br>子类返回类型是父类返回类型的子类；<br>子类抛出异常小于等于父类方法抛出异常；<br>子类访问权限大于等于父类方法访问权限。<br><img src="https://www.educoder.net/api/attachments/206833"></p></blockquote><blockquote><p><strong>在重写中，运用的是动态单分配，根据<code>new</code>的类型确定对象，从而确定调用的方法；</strong></p></blockquote><blockquote><p><strong>在重载中，运用的是静态多分配，根据静态类型确定对象，不能根据<code>new</code>的类型确定调用方法；</strong></p></blockquote><blockquote><p><strong>多态中， <code>Father f = new Son()</code>。</strong><br>成员变量：编译运行参考左边；<br>成员函数：编译看左边，运行看右边；<br>静态函数：编译运行看左边。</p></blockquote><p><strong><code>abstract</code>(抽象类)和<code>interface</code>(接口)</strong></p><h1 id="抽象类"><a href="#抽象类" class="headerlink" title="抽象类"></a>抽象类</h1><blockquote><p><strong>用 <code>abstract</code>修饰的类表示抽象类，抽象类位于继承树的抽象层，抽象类不能被实例化。</strong><br><strong>用 <code>abstract</code>修饰的方法表示抽象方法，抽象方法没有方法体。抽象方法用来描述系统具有什么功能，但不提供具体的实现，把具体实现留给继承该类的子类。</strong></p></blockquote><h3 id="抽象类特点："><a href="#抽象类特点：" class="headerlink" title="抽象类特点："></a>抽象类特点：</h3><blockquote><p>含有抽象方法的类必须声明为抽象类（不管其中是否有其他方法）；<br>抽象类可以没有抽象方法，可以有普通方法；<br>抽象类必须被继承，抽象方法必须被重写（若子类还是抽象类，不需要重写）；<br>抽象类不能被实例化（不能直接构造一个该类的对象）。</p></blockquote><h3 id="抽象方法特点："><a href="#抽象方法特点：" class="headerlink" title="抽象方法特点："></a>抽象方法特点：</h3><blockquote><p>在类中没有方法体（抽象方法只需声明，而不需实现某些功能）；<br>抽象类中的抽象方法必须被实现；<br>如果一个子类没有实现父类中的抽象方法，则子类也变成了一个抽象类。<br>接口 <code>interface</code> 中的方法默认为 <code>public abstract</code>（ <code>public</code> <code>abstract</code>可以省略），变量默认为 <code>public static final</code>；类中的方法全部都是抽象方法。只有声明没有实现，在不同类中有不同的方法实现。</p></blockquote><h3 id="不同点："><a href="#不同点：" class="headerlink" title="不同点："></a>不同点：</h3><blockquote><p>接口中只能包含抽象方法和默认方法，不能为普通方法提供方法实现；抽象类中可以包含普通方法；<br>接口里不能定义静态方法（ jdk1.8下可以定义static方法），抽象类可以定义静态方法；<br>接口中只能定义静态常量，不能定义普通成员变量；抽象类即可以定义变量又可以定义静态常量；<br>接口中不包含构造器，抽象类里可以包含构造器，抽象类中的构造器并不是用于创建对象，而是让其他子类调用这些构造器来完成抽象类的初始化操作；<br>接口里不能包含初始化块，但抽象类可以包含；<br>一个类最多只能有一个父类，包括抽象类；但一个类可以直接实现多个接口，通过实现多个接口可以弥补Java单继承的不足。</p></blockquote><h3 id="共同点："><a href="#共同点：" class="headerlink" title="共同点："></a>共同点：</h3><blockquote><p>接口和抽象类都不能被实例化，都位于继承树的顶端，用于被其他类实现的继承；<br>接口和抽象类都可以包含抽象方法，实现接口和继承抽象类的普通子类都必须实现这些方法。<br><img src="https://www.educoder.net/api/attachments/206834"></p></blockquote><p>#final 关键字</p><blockquote><p>final修饰的类，就是最终类，不能被继承。<br>final修饰的方法，就是最终方法，最终方法不能被重写。<br>final修饰一个引用变量时，是指引用变量不能变，引用变量所指向的对象中的内容还是可以改变的。修饰基本数据类型变量时，内容不能变。<br>final成员变量必须在初始化代码块或在构造器中初始化。</p></blockquote><h3 id="作用："><a href="#作用：" class="headerlink" title="作用："></a>作用：</h3><blockquote><p>final类：如果一个类不需要有子类，类的实现细节不允许改变，并且确信这个类不会再被扩展，那么就设计成 <code>final</code>类。<br>final方法：①把方法锁定，防止任何继承类修改它的意义和实现。②高效，编译器在遇到调用 <code>final</code>方法时候会转入内嵌机制，大大提升执行效率。</p></blockquote><p>#static 关键字</p><blockquote><p>static修饰的变量称为静态变量，静态变量属于整个类，而局部变量属于方法，只在该方法内有效。 <code>static</code>不能修饰局部变量。 <code>static</code>方法内部不能调用非静态方法。<br>静态变量只能在类主体中定义，不能在方法中定义；<br>static变量只会创建一份，不管创建几个对象，都共用一个变量。<br>类方法指被 <code>static</code>修饰的方法，无 this指针。其他的就是实例方法。类方法可以调用其他类的 <code>static</code>方法。</p></blockquote><h2 id="类方法和对象方法的区别："><a href="#类方法和对象方法的区别：" class="headerlink" title="类方法和对象方法的区别："></a>类方法和对象方法的区别：</h2><h3 id="类方法是属于整个类的，而实例方法是属于类的某个对象的。"><a href="#类方法是属于整个类的，而实例方法是属于类的某个对象的。" class="headerlink" title="类方法是属于整个类的，而实例方法是属于类的某个对象的。"></a>类方法是属于整个类的，而实例方法是属于类的某个对象的。</h3><blockquote><p><strong>由于类方法是属于整个类的，并不属于类的哪个对象，所以类方法的方法体中不能有与类的对象有关的内容。即类方法体有如下限制：</strong></p></blockquote><blockquote><p>类方法中不能引用对象变量；<br>类方法中不能调用类的对象方法；<br>在类方法中不能使用 <code>super</code>、 <code>this</code>关键字。（ <code>this</code>表示当前类的对象，由 <code>static</code>修饰的方法是类直接调用，不需要创建对象，所以不能用 <code>this</code>）；<br>类方法不能被覆盖。</p></blockquote><h3 id="与类方法相比，对象方法几乎没有什么限制："><a href="#与类方法相比，对象方法几乎没有什么限制：" class="headerlink" title="与类方法相比，对象方法几乎没有什么限制："></a>与类方法相比，对象方法几乎没有什么限制：</h3><blockquote><p>对象方法中可以引用对象变量，也可以引用类变量；<br>对象方法中可以调用类方法；<br>对象方法中可以使用 <code>super</code>、 <code>this</code>关键字。</p></blockquote><h3 id="static关键字的作用"><a href="#static关键字的作用" class="headerlink" title="static关键字的作用:"></a>static关键字的作用:</h3><blockquote><p>为某特定数据类型或对象分配单一的存储空间，而与创建对象的个数无关；实现某个方法或属性与类而不是对象关联在一起；<br>静态变量属于类，在内存中只有一个复制，只要静态变量所在的类被加载，这个静态变量就会被分配空间。</p></blockquote><h1 id="多态"><a href="#多态" class="headerlink" title="多态"></a>多态</h1><blockquote><p><strong>定义：不同类的对象对同一消息做出响应。同一消息可以根据发送对象的不同而采用多种不同的行为方式；</strong></p></blockquote><blockquote><p><strong>多态存在的三个必要条件：继承、重写、父类引用指向子类对象；</strong></p></blockquote><blockquote><p><strong>Java中多态的实现方式：接口实现，继承父类进行方法重写，同一个类中进行方法重载；</strong></p></blockquote><blockquote><p>父类引用指向子类对象，该引用不能再访问子类新增的成员。 <code>Animal cat = new Cat()</code>与直接 <code>new</code>一个父类实例( <code>Animal a = new Animal()</code>)的区别？<br>答：当父类是接口和抽象类时，不能实例化，只能运用多态，向上转型。普通类中，可以在子类中重写父类中的方法，这样就可以访问子类中的重写方法。</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 编程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 学习笔记 </tag>
+            
+            <tag> Java </tag>
             
         </tags>
       
