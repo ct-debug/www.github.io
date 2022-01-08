@@ -6,7 +6,7 @@
   <link href="https://www.debugsrc.top/atom.xml" rel="self"/>
   
   <link href="https://www.debugsrc.top/"/>
-  <updated>2022-01-08T15:40:30.222Z</updated>
+  <updated>2022-01-08T15:48:43.319Z</updated>
   <id>https://www.debugsrc.top/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://www.debugsrc.top/2019/01/01/apache-yuan-cheng-ming-ling-zhi-xing-lou-dong/"/>
     <id>https://www.debugsrc.top/2019/01/01/apache-yuan-cheng-ming-ling-zhi-xing-lou-dong/</id>
     <published>2018-12-31T16:00:00.000Z</published>
-    <updated>2022-01-08T15:40:30.222Z</updated>
+    <updated>2022-01-08T15:48:43.319Z</updated>
     
     
       
@@ -71,6 +71,35 @@
     <category term="学习笔记" scheme="https://www.debugsrc.top/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
     <category term="FTP" scheme="https://www.debugsrc.top/tags/FTP/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Termux</title>
+    <link href="https://www.debugsrc.top/2019/01/01/termux/"/>
+    <id>https://www.debugsrc.top/2019/01/01/termux/</id>
+    <published>2018-12-31T16:00:00.000Z</published>
+    <updated>2022-01-08T14:22:51.571Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h4 id=&quot;更换国内源&quot;&gt;&lt;a href=&quot;#更换国内源&quot; class=&quot;headerlink&quot; title=&quot;更换国内源&quot;&gt;&lt;/a&gt;更换国内源&lt;/h4&gt;&lt;p&gt;更换Termux清华大学源, 加快软件包下载速度。&lt;/p&gt;
+&lt;p&gt;设置默认编辑器&lt;/p&gt;
+&lt;pre class=&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="环境搭建" scheme="https://www.debugsrc.top/categories/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
+    
+    
+    <category term="学习笔记" scheme="https://www.debugsrc.top/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="Termux" scheme="https://www.debugsrc.top/tags/Termux/"/>
     
   </entry>
   
@@ -134,35 +163,6 @@
   </entry>
   
   <entry>
-    <title>Termux</title>
-    <link href="https://www.debugsrc.top/2019/01/01/termux/"/>
-    <id>https://www.debugsrc.top/2019/01/01/termux/</id>
-    <published>2018-12-31T16:00:00.000Z</published>
-    <updated>2022-01-08T14:22:51.571Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h4 id=&quot;更换国内源&quot;&gt;&lt;a href=&quot;#更换国内源&quot; class=&quot;headerlink&quot; title=&quot;更换国内源&quot;&gt;&lt;/a&gt;更换国内源&lt;/h4&gt;&lt;p&gt;更换Termux清华大学源, 加快软件包下载速度。&lt;/p&gt;
-&lt;p&gt;设置默认编辑器&lt;/p&gt;
-&lt;pre class=&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="环境搭建" scheme="https://www.debugsrc.top/categories/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
-    
-    
-    <category term="学习笔记" scheme="https://www.debugsrc.top/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-    <category term="Termux" scheme="https://www.debugsrc.top/tags/Termux/"/>
-    
-  </entry>
-  
-  <entry>
     <title>kali Linux 2020版更新源及中文设置问题解决方案</title>
     <link href="https://www.debugsrc.top/2019/01/01/kali-linux-2020-ban-geng-xin-yuan-ji-zhong-wen-she-zhi-wen-ti-jie-jue-fang-an/"/>
     <id>https://www.debugsrc.top/2019/01/01/kali-linux-2020-ban-geng-xin-yuan-ji-zhong-wen-she-zhi-wen-ti-jie-jue-fang-an/</id>
@@ -188,33 +188,6 @@
     <category term="kali" scheme="https://www.debugsrc.top/tags/kali/"/>
     
     <category term="Linux" scheme="https://www.debugsrc.top/tags/Linux/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>向上转型和向下转型</title>
-    <link href="https://www.debugsrc.top/2019/01/01/xiang-shang-zhuan-xing-he-xiang-xia-zhuan-xing/"/>
-    <id>https://www.debugsrc.top/2019/01/01/xiang-shang-zhuan-xing-he-xiang-xia-zhuan-xing/</id>
-    <published>2018-12-31T16:00:00.000Z</published>
-    <updated>2022-01-08T14:20:39.683Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;Java转型记住一句话：父类引用指向子类对象。&quot;&gt;&lt;a href=&quot;#Java转型记住一句话：父类引用指向子类对象。&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="编程" scheme="https://www.debugsrc.top/categories/%E7%BC%96%E7%A8%8B/"/>
-    
-    
-    <category term="学习笔记" scheme="https://www.debugsrc.top/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-    <category term="Java" scheme="https://www.debugsrc.top/tags/Java/"/>
     
   </entry>
   
@@ -246,6 +219,33 @@
     <category term="python" scheme="https://www.debugsrc.top/tags/python/"/>
     
     <category term="pip" scheme="https://www.debugsrc.top/tags/pip/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>向上转型和向下转型</title>
+    <link href="https://www.debugsrc.top/2019/01/01/xiang-shang-zhuan-xing-he-xiang-xia-zhuan-xing/"/>
+    <id>https://www.debugsrc.top/2019/01/01/xiang-shang-zhuan-xing-he-xiang-xia-zhuan-xing/</id>
+    <published>2018-12-31T16:00:00.000Z</published>
+    <updated>2022-01-08T14:20:39.683Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Java转型记住一句话：父类引用指向子类对象。&quot;&gt;&lt;a href=&quot;#Java转型记住一句话：父类引用指向子类对象。&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="编程" scheme="https://www.debugsrc.top/categories/%E7%BC%96%E7%A8%8B/"/>
+    
+    
+    <category term="学习笔记" scheme="https://www.debugsrc.top/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="Java" scheme="https://www.debugsrc.top/tags/Java/"/>
     
   </entry>
   
