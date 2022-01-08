@@ -134,35 +134,6 @@
   </entry>
   
   <entry>
-    <title>Termux</title>
-    <link href="https://www.debugsrc.top/2019/01/01/termux/"/>
-    <id>https://www.debugsrc.top/2019/01/01/termux/</id>
-    <published>2018-12-31T16:00:00.000Z</published>
-    <updated>2022-01-08T20:12:32.206Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h4 id=&quot;更换国内源&quot;&gt;&lt;a href=&quot;#更换国内源&quot; class=&quot;headerlink&quot; title=&quot;更换国内源&quot;&gt;&lt;/a&gt;更换国内源&lt;/h4&gt;&lt;p&gt;更换Termux清华大学源, 加快软件包下载速度。&lt;/p&gt;
-&lt;p&gt;设置默认编辑器&lt;/p&gt;
-&lt;pre class=&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="环境搭建" scheme="https://www.debugsrc.top/categories/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
-    
-    
-    <category term="学习笔记" scheme="https://www.debugsrc.top/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-    <category term="Termux" scheme="https://www.debugsrc.top/tags/Termux/"/>
-    
-  </entry>
-  
-  <entry>
     <title>kali Linux 2020版更新源及中文设置问题解决方案</title>
     <link href="https://www.debugsrc.top/2019/01/01/kali-linux-2020-ban-geng-xin-yuan-ji-zhong-wen-she-zhi-wen-ti-jie-jue-fang-an/"/>
     <id>https://www.debugsrc.top/2019/01/01/kali-linux-2020-ban-geng-xin-yuan-ji-zhong-wen-she-zhi-wen-ti-jie-jue-fang-an/</id>
@@ -188,6 +159,35 @@
     <category term="kali" scheme="https://www.debugsrc.top/tags/kali/"/>
     
     <category term="Linux" scheme="https://www.debugsrc.top/tags/Linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Termux</title>
+    <link href="https://www.debugsrc.top/2019/01/01/termux/"/>
+    <id>https://www.debugsrc.top/2019/01/01/termux/</id>
+    <published>2018-12-31T16:00:00.000Z</published>
+    <updated>2022-01-08T20:12:32.206Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h4 id=&quot;更换国内源&quot;&gt;&lt;a href=&quot;#更换国内源&quot; class=&quot;headerlink&quot; title=&quot;更换国内源&quot;&gt;&lt;/a&gt;更换国内源&lt;/h4&gt;&lt;p&gt;更换Termux清华大学源, 加快软件包下载速度。&lt;/p&gt;
+&lt;p&gt;设置默认编辑器&lt;/p&gt;
+&lt;pre class=&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="环境搭建" scheme="https://www.debugsrc.top/categories/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
+    
+    
+    <category term="学习笔记" scheme="https://www.debugsrc.top/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="Termux" scheme="https://www.debugsrc.top/tags/Termux/"/>
     
   </entry>
   
@@ -250,6 +250,33 @@
   </entry>
   
   <entry>
+    <title>类中的私有成员变量进行赋值和访问</title>
+    <link href="https://www.debugsrc.top/2019/01/01/lei-zhong-de-si-you-cheng-yuan-bian-liang-jin-xing-fu-zhi-he-fang-wen/"/>
+    <id>https://www.debugsrc.top/2019/01/01/lei-zhong-de-si-you-cheng-yuan-bian-liang-jin-xing-fu-zhi-he-fang-wen/</id>
+    <published>2018-12-31T16:00:00.000Z</published>
+    <updated>2022-01-08T20:11:40.123Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;定义一个学生类-提供成员变量姓名和年龄，需要将成员变量私有化-提供对外公共访问的成员方法&quot;&gt;&lt;a href=&quot;#定义一个学生类-提供成员变量姓名和年龄，需要将成员变量私有化-提供对外公共访问的成员方法&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Java" scheme="https://www.debugsrc.top/categories/Java/"/>
+    
+    
+    <category term="学习笔记" scheme="https://www.debugsrc.top/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="Java" scheme="https://www.debugsrc.top/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
     <title>面向对象思想,封装,继承,构造函数,super()和this()</title>
     <link href="https://www.debugsrc.top/2019/01/01/feng-zhuang-ji-cheng-gou-zao-han-shu-super-he-this/"/>
     <id>https://www.debugsrc.top/2019/01/01/feng-zhuang-ji-cheng-gou-zao-han-shu-super-he-this/</id>
@@ -305,33 +332,6 @@
     <category term="网络安全" scheme="https://www.debugsrc.top/tags/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/"/>
     
     <category term="政策" scheme="https://www.debugsrc.top/tags/%E6%94%BF%E7%AD%96/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>类中的私有成员变量进行赋值和访问</title>
-    <link href="https://www.debugsrc.top/2019/01/01/lei-zhong-de-si-you-cheng-yuan-bian-liang-jin-xing-fu-zhi-he-fang-wen/"/>
-    <id>https://www.debugsrc.top/2019/01/01/lei-zhong-de-si-you-cheng-yuan-bian-liang-jin-xing-fu-zhi-he-fang-wen/</id>
-    <published>2018-12-31T16:00:00.000Z</published>
-    <updated>2022-01-08T20:11:40.123Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;定义一个学生类-提供成员变量姓名和年龄，需要将成员变量私有化-提供对外公共访问的成员方法&quot;&gt;&lt;a href=&quot;#定义一个学生类-提供成员变量姓名和年龄，需要将成员变量私有化-提供对外公共访问的成员方法&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="Java" scheme="https://www.debugsrc.top/categories/Java/"/>
-    
-    
-    <category term="学习笔记" scheme="https://www.debugsrc.top/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-    <category term="Java" scheme="https://www.debugsrc.top/tags/Java/"/>
     
   </entry>
   
