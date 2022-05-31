@@ -138,35 +138,6 @@
   </entry>
   
   <entry>
-    <title>Termux</title>
-    <link href="https://www.debugsrc.top/2019/01/01/termux/"/>
-    <id>https://www.debugsrc.top/2019/01/01/termux/</id>
-    <published>2018-12-31T16:00:00.000Z</published>
-    <updated>2022-01-08T20:12:32.206Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h4 id=&quot;更换国内源&quot;&gt;&lt;a href=&quot;#更换国内源&quot; class=&quot;headerlink&quot; title=&quot;更换国内源&quot;&gt;&lt;/a&gt;更换国内源&lt;/h4&gt;&lt;p&gt;更换Termux清华大学源, 加快软件包下载速度。&lt;/p&gt;
-&lt;p&gt;设置默认编辑器&lt;/p&gt;
-&lt;pre class=&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="环境搭建" scheme="https://www.debugsrc.top/categories/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
-    
-    
-    <category term="学习笔记" scheme="https://www.debugsrc.top/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-    <category term="Termux" scheme="https://www.debugsrc.top/tags/Termux/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Java面向对象基础知识</title>
     <link href="https://www.debugsrc.top/2019/01/01/java-mian-xiang-dui-xiang-ji-chu-zhi-shi/"/>
     <id>https://www.debugsrc.top/2019/01/01/java-mian-xiang-dui-xiang-ji-chu-zhi-shi/</id>
@@ -223,60 +194,6 @@
   </entry>
   
   <entry>
-    <title>向上转型和向下转型</title>
-    <link href="https://www.debugsrc.top/2019/01/01/xiang-shang-zhuan-xing-he-xiang-xia-zhuan-xing/"/>
-    <id>https://www.debugsrc.top/2019/01/01/xiang-shang-zhuan-xing-he-xiang-xia-zhuan-xing/</id>
-    <published>2018-12-31T16:00:00.000Z</published>
-    <updated>2022-01-08T20:11:53.082Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;Java转型记住一句话：父类引用指向子类对象。&quot;&gt;&lt;a href=&quot;#Java转型记住一句话：父类引用指向子类对象。&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="编程" scheme="https://www.debugsrc.top/categories/%E7%BC%96%E7%A8%8B/"/>
-    
-    
-    <category term="学习笔记" scheme="https://www.debugsrc.top/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-    <category term="Java" scheme="https://www.debugsrc.top/tags/Java/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>面向对象思想,封装,继承,构造函数,super()和this()</title>
-    <link href="https://www.debugsrc.top/2019/01/01/feng-zhuang-ji-cheng-gou-zao-han-shu-super-he-this/"/>
-    <id>https://www.debugsrc.top/2019/01/01/feng-zhuang-ji-cheng-gou-zao-han-shu-super-he-this/</id>
-    <published>2018-12-31T16:00:00.000Z</published>
-    <updated>2022-01-08T20:11:33.977Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;面向对象思想&quot;&gt;&lt;a href=&quot;#面向对象思想&quot; class=&quot;headerlink&quot; title=&quot;面向对象思想&quot;&gt;&lt;/a&gt;面向对象思想&lt;/h1&gt;&lt;h3 id=&quot;构造器&quot;&gt;&lt;a href=&quot;#构造器&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="编程" scheme="https://www.debugsrc.top/categories/%E7%BC%96%E7%A8%8B/"/>
-    
-    
-    <category term="学习笔记" scheme="https://www.debugsrc.top/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-    <category term="Java" scheme="https://www.debugsrc.top/tags/Java/"/>
-    
-  </entry>
-  
-  <entry>
     <title>kali安装python2，python3对应的pip</title>
     <link href="https://www.debugsrc.top/2019/01/01/kali-an-zhuang-python2-python3-dui-ying-de-pip/"/>
     <id>https://www.debugsrc.top/2019/01/01/kali-an-zhuang-python2-python3-dui-ying-de-pip/</id>
@@ -308,6 +225,62 @@
   </entry>
   
   <entry>
+    <title>Termux</title>
+    <link href="https://www.debugsrc.top/2019/01/01/termux/"/>
+    <id>https://www.debugsrc.top/2019/01/01/termux/</id>
+    <published>2018-12-31T16:00:00.000Z</published>
+    <updated>2022-01-08T20:12:32.206Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h4 id=&quot;更换国内源&quot;&gt;&lt;a href=&quot;#更换国内源&quot; class=&quot;headerlink&quot; title=&quot;更换国内源&quot;&gt;&lt;/a&gt;更换国内源&lt;/h4&gt;&lt;p&gt;更换Termux清华大学源, 加快软件包下载速度。&lt;/p&gt;
+&lt;p&gt;设置默认编辑器&lt;/p&gt;
+&lt;pre class=&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="环境搭建" scheme="https://www.debugsrc.top/categories/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
+    
+    
+    <category term="学习笔记" scheme="https://www.debugsrc.top/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="Termux" scheme="https://www.debugsrc.top/tags/Termux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>向上转型和向下转型</title>
+    <link href="https://www.debugsrc.top/2019/01/01/xiang-shang-zhuan-xing-he-xiang-xia-zhuan-xing/"/>
+    <id>https://www.debugsrc.top/2019/01/01/xiang-shang-zhuan-xing-he-xiang-xia-zhuan-xing/</id>
+    <published>2018-12-31T16:00:00.000Z</published>
+    <updated>2022-01-08T20:11:53.082Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Java转型记住一句话：父类引用指向子类对象。&quot;&gt;&lt;a href=&quot;#Java转型记住一句话：父类引用指向子类对象。&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="编程" scheme="https://www.debugsrc.top/categories/%E7%BC%96%E7%A8%8B/"/>
+    
+    
+    <category term="学习笔记" scheme="https://www.debugsrc.top/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="Java" scheme="https://www.debugsrc.top/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
     <title>类中的私有成员变量进行赋值和访问</title>
     <link href="https://www.debugsrc.top/2019/01/01/lei-zhong-de-si-you-cheng-yuan-bian-liang-jin-xing-fu-zhi-he-fang-wen/"/>
     <id>https://www.debugsrc.top/2019/01/01/lei-zhong-de-si-you-cheng-yuan-bian-liang-jin-xing-fu-zhi-he-fang-wen/</id>
@@ -326,6 +299,33 @@
     
     
     <category term="Java" scheme="https://www.debugsrc.top/categories/Java/"/>
+    
+    
+    <category term="学习笔记" scheme="https://www.debugsrc.top/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="Java" scheme="https://www.debugsrc.top/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>面向对象思想,封装,继承,构造函数,super()和this()</title>
+    <link href="https://www.debugsrc.top/2019/01/01/feng-zhuang-ji-cheng-gou-zao-han-shu-super-he-this/"/>
+    <id>https://www.debugsrc.top/2019/01/01/feng-zhuang-ji-cheng-gou-zao-han-shu-super-he-this/</id>
+    <published>2018-12-31T16:00:00.000Z</published>
+    <updated>2022-01-08T20:11:33.977Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;面向对象思想&quot;&gt;&lt;a href=&quot;#面向对象思想&quot; class=&quot;headerlink&quot; title=&quot;面向对象思想&quot;&gt;&lt;/a&gt;面向对象思想&lt;/h1&gt;&lt;h3 id=&quot;构造器&quot;&gt;&lt;a href=&quot;#构造器&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="编程" scheme="https://www.debugsrc.top/categories/%E7%BC%96%E7%A8%8B/"/>
     
     
     <category term="学习笔记" scheme="https://www.debugsrc.top/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
