@@ -6,7 +6,7 @@
   <link href="https://www.debugsrc.top/atom.xml" rel="self"/>
   
   <link href="https://www.debugsrc.top/"/>
-  <updated>2022-05-31T03:42:43.685Z</updated>
+  <updated>2022-05-31T03:54:41.824Z</updated>
   <id>https://www.debugsrc.top/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://www.debugsrc.top/2019/09/01/cve-2020-1938-lou-dong-fu-xian/"/>
     <id>https://www.debugsrc.top/2019/09/01/cve-2020-1938-lou-dong-fu-xian/</id>
     <published>2019-08-31T16:00:00.000Z</published>
-    <updated>2022-05-31T03:42:43.685Z</updated>
+    <updated>2022-05-31T03:54:41.824Z</updated>
     
     
       
@@ -165,31 +165,31 @@
   </entry>
   
   <entry>
-    <title>kali Linux 2020版更新源及中文设置问题解决方案</title>
-    <link href="https://www.debugsrc.top/2019/01/01/kali-linux-2020-ban-geng-xin-yuan-ji-zhong-wen-she-zhi-wen-ti-jie-jue-fang-an/"/>
-    <id>https://www.debugsrc.top/2019/01/01/kali-linux-2020-ban-geng-xin-yuan-ji-zhong-wen-she-zhi-wen-ti-jie-jue-fang-an/</id>
+    <title>Termux</title>
+    <link href="https://www.debugsrc.top/2019/01/01/termux/"/>
+    <id>https://www.debugsrc.top/2019/01/01/termux/</id>
     <published>2018-12-31T16:00:00.000Z</published>
-    <updated>2022-01-08T20:12:22.785Z</updated>
+    <updated>2022-01-08T20:12:32.206Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;kali-linux-2020版&quot;&gt;&lt;a href=&quot;#kali-linux-2020版&quot; class=&quot;headerlink&quot; title=&quot;kali linux 2020版&quot;&gt;&lt;/a&gt;kali linux 2020版&lt;/h1&gt;&lt;h2</summary>
+    <summary type="html">&lt;h4 id=&quot;更换国内源&quot;&gt;&lt;a href=&quot;#更换国内源&quot; class=&quot;headerlink&quot; title=&quot;更换国内源&quot;&gt;&lt;/a&gt;更换国内源&lt;/h4&gt;&lt;p&gt;更换Termux清华大学源, 加快软件包下载速度。&lt;/p&gt;
+&lt;p&gt;设置默认编辑器&lt;/p&gt;
+&lt;pre class=&quot;</summary>
         
       
     
     
     
-    <category term="编程" scheme="https://www.debugsrc.top/categories/%E7%BC%96%E7%A8%8B/"/>
+    <category term="环境搭建" scheme="https://www.debugsrc.top/categories/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
     
     
     <category term="学习笔记" scheme="https://www.debugsrc.top/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
-    <category term="kali" scheme="https://www.debugsrc.top/tags/kali/"/>
-    
-    <category term="Linux" scheme="https://www.debugsrc.top/tags/Linux/"/>
+    <category term="Termux" scheme="https://www.debugsrc.top/tags/Termux/"/>
     
   </entry>
   
@@ -225,31 +225,31 @@
   </entry>
   
   <entry>
-    <title>Termux</title>
-    <link href="https://www.debugsrc.top/2019/01/01/termux/"/>
-    <id>https://www.debugsrc.top/2019/01/01/termux/</id>
+    <title>kali Linux 2020版更新源及中文设置问题解决方案</title>
+    <link href="https://www.debugsrc.top/2019/01/01/kali-linux-2020-ban-geng-xin-yuan-ji-zhong-wen-she-zhi-wen-ti-jie-jue-fang-an/"/>
+    <id>https://www.debugsrc.top/2019/01/01/kali-linux-2020-ban-geng-xin-yuan-ji-zhong-wen-she-zhi-wen-ti-jie-jue-fang-an/</id>
     <published>2018-12-31T16:00:00.000Z</published>
-    <updated>2022-01-08T20:12:32.206Z</updated>
+    <updated>2022-01-08T20:12:22.785Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h4 id=&quot;更换国内源&quot;&gt;&lt;a href=&quot;#更换国内源&quot; class=&quot;headerlink&quot; title=&quot;更换国内源&quot;&gt;&lt;/a&gt;更换国内源&lt;/h4&gt;&lt;p&gt;更换Termux清华大学源, 加快软件包下载速度。&lt;/p&gt;
-&lt;p&gt;设置默认编辑器&lt;/p&gt;
-&lt;pre class=&quot;</summary>
+    <summary type="html">&lt;h1 id=&quot;kali-linux-2020版&quot;&gt;&lt;a href=&quot;#kali-linux-2020版&quot; class=&quot;headerlink&quot; title=&quot;kali linux 2020版&quot;&gt;&lt;/a&gt;kali linux 2020版&lt;/h1&gt;&lt;h2</summary>
         
       
     
     
     
-    <category term="环境搭建" scheme="https://www.debugsrc.top/categories/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
+    <category term="编程" scheme="https://www.debugsrc.top/categories/%E7%BC%96%E7%A8%8B/"/>
     
     
     <category term="学习笔记" scheme="https://www.debugsrc.top/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
-    <category term="Termux" scheme="https://www.debugsrc.top/tags/Termux/"/>
+    <category term="kali" scheme="https://www.debugsrc.top/tags/kali/"/>
+    
+    <category term="Linux" scheme="https://www.debugsrc.top/tags/Linux/"/>
     
   </entry>
   
