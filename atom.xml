@@ -6,7 +6,7 @@
   <link href="https://www.debugsrc.top/atom.xml" rel="self"/>
   
   <link href="https://www.debugsrc.top/"/>
-  <updated>2022-01-08T20:12:04.938Z</updated>
+  <updated>2022-05-31T03:42:43.685Z</updated>
   <id>https://www.debugsrc.top/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>CVE-2020-1938漏洞复现</title>
+    <link href="https://www.debugsrc.top/2019/09/01/cve-2020-1938-lou-dong-fu-xian/"/>
+    <id>https://www.debugsrc.top/2019/09/01/cve-2020-1938-lou-dong-fu-xian/</id>
+    <published>2019-08-31T16:00:00.000Z</published>
+    <updated>2022-05-31T03:42:43.685Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;CVE-2020-1938漏洞复现&quot;&gt;&lt;a href=&quot;#CVE-2020-1938漏洞复现&quot; class=&quot;headerlink&quot; title=&quot;CVE-2020-1938漏洞复现&quot;&gt;&lt;/a&gt;CVE-2020-1938漏洞复现&lt;/h1&gt;&lt;h3</summary>
+        
+      
+    
+    
+    
+    <category term="网络安全" scheme="https://www.debugsrc.top/categories/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/"/>
+    
+    
+    <category term="学习笔记" scheme="https://www.debugsrc.top/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="漏洞复现" scheme="https://www.debugsrc.top/tags/%E6%BC%8F%E6%B4%9E%E5%A4%8D%E7%8E%B0/"/>
+    
+    <category term="中间件" scheme="https://www.debugsrc.top/tags/%E4%B8%AD%E9%97%B4%E4%BB%B6/"/>
+    
+    <category term="CVE" scheme="https://www.debugsrc.top/tags/CVE/"/>
+    
+  </entry>
   
   <entry>
     <title>Apache远程命令执行漏洞</title>
@@ -44,6 +75,33 @@
     <category term="远程命令执行" scheme="https://www.debugsrc.top/tags/%E8%BF%9C%E7%A8%8B%E5%91%BD%E4%BB%A4%E6%89%A7%E8%A1%8C/"/>
     
     <category term="漏洞复现" scheme="https://www.debugsrc.top/tags/%E6%BC%8F%E6%B4%9E%E5%A4%8D%E7%8E%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CentOS8.2 ftp服务器搭建</title>
+    <link href="https://www.debugsrc.top/2019/01/01/centos-8.2-ftp-fu-wu-qi-da-jian/"/>
+    <id>https://www.debugsrc.top/2019/01/01/centos-8.2-ftp-fu-wu-qi-da-jian/</id>
+    <published>2018-12-31T16:00:00.000Z</published>
+    <updated>2022-01-08T20:12:14.211Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;CentOS-8-2-ftp服务器搭建&quot;&gt;&lt;a href=&quot;#CentOS-8-2-ftp服务器搭建&quot; class=&quot;headerlink&quot; title=&quot;CentOS 8.2 ftp服务器搭建&quot;&gt;&lt;/a&gt;CentOS 8.2 ftp服务器搭建&lt;/h1&gt;&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="环境搭建" scheme="https://www.debugsrc.top/categories/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
+    
+    
+    <category term="学习笔记" scheme="https://www.debugsrc.top/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="FTP" scheme="https://www.debugsrc.top/tags/FTP/"/>
     
   </entry>
   
@@ -80,33 +138,6 @@
   </entry>
   
   <entry>
-    <title>Java面向对象基础知识</title>
-    <link href="https://www.debugsrc.top/2019/01/01/java-mian-xiang-dui-xiang-ji-chu-zhi-shi/"/>
-    <id>https://www.debugsrc.top/2019/01/01/java-mian-xiang-dui-xiang-ji-chu-zhi-shi/</id>
-    <published>2018-12-31T16:00:00.000Z</published>
-    <updated>2022-01-08T20:12:18.517Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;Java面向对象实例：&quot;&gt;&lt;a href=&quot;#Java面向对象实例：&quot; class=&quot;headerlink&quot; title=&quot;Java面向对象实例：&quot;&gt;&lt;/a&gt;Java面向对象实例：&lt;/h1&gt;&lt;h2 id=&quot;1-Java继承&quot;&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="编程" scheme="https://www.debugsrc.top/categories/%E7%BC%96%E7%A8%8B/"/>
-    
-    
-    <category term="学习笔记" scheme="https://www.debugsrc.top/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-    <category term="Java" scheme="https://www.debugsrc.top/tags/Java/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Termux</title>
     <link href="https://www.debugsrc.top/2019/01/01/termux/"/>
     <id>https://www.debugsrc.top/2019/01/01/termux/</id>
@@ -132,6 +163,33 @@
     <category term="学习笔记" scheme="https://www.debugsrc.top/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
     <category term="Termux" scheme="https://www.debugsrc.top/tags/Termux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java面向对象基础知识</title>
+    <link href="https://www.debugsrc.top/2019/01/01/java-mian-xiang-dui-xiang-ji-chu-zhi-shi/"/>
+    <id>https://www.debugsrc.top/2019/01/01/java-mian-xiang-dui-xiang-ji-chu-zhi-shi/</id>
+    <published>2018-12-31T16:00:00.000Z</published>
+    <updated>2022-01-08T20:12:18.517Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Java面向对象实例：&quot;&gt;&lt;a href=&quot;#Java面向对象实例：&quot; class=&quot;headerlink&quot; title=&quot;Java面向对象实例：&quot;&gt;&lt;/a&gt;Java面向对象实例：&lt;/h1&gt;&lt;h2 id=&quot;1-Java继承&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="编程" scheme="https://www.debugsrc.top/categories/%E7%BC%96%E7%A8%8B/"/>
+    
+    
+    <category term="学习笔记" scheme="https://www.debugsrc.top/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="Java" scheme="https://www.debugsrc.top/tags/Java/"/>
     
   </entry>
   
@@ -165,29 +223,56 @@
   </entry>
   
   <entry>
-    <title>CentOS8.2 ftp服务器搭建</title>
-    <link href="https://www.debugsrc.top/2019/01/01/centos-8.2-ftp-fu-wu-qi-da-jian/"/>
-    <id>https://www.debugsrc.top/2019/01/01/centos-8.2-ftp-fu-wu-qi-da-jian/</id>
+    <title>向上转型和向下转型</title>
+    <link href="https://www.debugsrc.top/2019/01/01/xiang-shang-zhuan-xing-he-xiang-xia-zhuan-xing/"/>
+    <id>https://www.debugsrc.top/2019/01/01/xiang-shang-zhuan-xing-he-xiang-xia-zhuan-xing/</id>
     <published>2018-12-31T16:00:00.000Z</published>
-    <updated>2022-01-08T20:12:14.211Z</updated>
+    <updated>2022-01-08T20:11:53.082Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;CentOS-8-2-ftp服务器搭建&quot;&gt;&lt;a href=&quot;#CentOS-8-2-ftp服务器搭建&quot; class=&quot;headerlink&quot; title=&quot;CentOS 8.2 ftp服务器搭建&quot;&gt;&lt;/a&gt;CentOS 8.2 ftp服务器搭建&lt;/h1&gt;&lt;h2</summary>
+    <summary type="html">&lt;h1 id=&quot;Java转型记住一句话：父类引用指向子类对象。&quot;&gt;&lt;a href=&quot;#Java转型记住一句话：父类引用指向子类对象。&quot; class=&quot;headerlink&quot;</summary>
         
       
     
     
     
-    <category term="环境搭建" scheme="https://www.debugsrc.top/categories/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
+    <category term="编程" scheme="https://www.debugsrc.top/categories/%E7%BC%96%E7%A8%8B/"/>
     
     
     <category term="学习笔记" scheme="https://www.debugsrc.top/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
-    <category term="FTP" scheme="https://www.debugsrc.top/tags/FTP/"/>
+    <category term="Java" scheme="https://www.debugsrc.top/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>面向对象思想,封装,继承,构造函数,super()和this()</title>
+    <link href="https://www.debugsrc.top/2019/01/01/feng-zhuang-ji-cheng-gou-zao-han-shu-super-he-this/"/>
+    <id>https://www.debugsrc.top/2019/01/01/feng-zhuang-ji-cheng-gou-zao-han-shu-super-he-this/</id>
+    <published>2018-12-31T16:00:00.000Z</published>
+    <updated>2022-01-08T20:11:33.977Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;面向对象思想&quot;&gt;&lt;a href=&quot;#面向对象思想&quot; class=&quot;headerlink&quot; title=&quot;面向对象思想&quot;&gt;&lt;/a&gt;面向对象思想&lt;/h1&gt;&lt;h3 id=&quot;构造器&quot;&gt;&lt;a href=&quot;#构造器&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="编程" scheme="https://www.debugsrc.top/categories/%E7%BC%96%E7%A8%8B/"/>
+    
+    
+    <category term="学习笔记" scheme="https://www.debugsrc.top/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="Java" scheme="https://www.debugsrc.top/tags/Java/"/>
     
   </entry>
   
@@ -223,33 +308,6 @@
   </entry>
   
   <entry>
-    <title>向上转型和向下转型</title>
-    <link href="https://www.debugsrc.top/2019/01/01/xiang-shang-zhuan-xing-he-xiang-xia-zhuan-xing/"/>
-    <id>https://www.debugsrc.top/2019/01/01/xiang-shang-zhuan-xing-he-xiang-xia-zhuan-xing/</id>
-    <published>2018-12-31T16:00:00.000Z</published>
-    <updated>2022-01-08T20:11:53.082Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;Java转型记住一句话：父类引用指向子类对象。&quot;&gt;&lt;a href=&quot;#Java转型记住一句话：父类引用指向子类对象。&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="编程" scheme="https://www.debugsrc.top/categories/%E7%BC%96%E7%A8%8B/"/>
-    
-    
-    <category term="学习笔记" scheme="https://www.debugsrc.top/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-    <category term="Java" scheme="https://www.debugsrc.top/tags/Java/"/>
-    
-  </entry>
-  
-  <entry>
     <title>类中的私有成员变量进行赋值和访问</title>
     <link href="https://www.debugsrc.top/2019/01/01/lei-zhong-de-si-you-cheng-yuan-bian-liang-jin-xing-fu-zhi-he-fang-wen/"/>
     <id>https://www.debugsrc.top/2019/01/01/lei-zhong-de-si-you-cheng-yuan-bian-liang-jin-xing-fu-zhi-he-fang-wen/</id>
@@ -268,33 +326,6 @@
     
     
     <category term="Java" scheme="https://www.debugsrc.top/categories/Java/"/>
-    
-    
-    <category term="学习笔记" scheme="https://www.debugsrc.top/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-    <category term="Java" scheme="https://www.debugsrc.top/tags/Java/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>面向对象思想,封装,继承,构造函数,super()和this()</title>
-    <link href="https://www.debugsrc.top/2019/01/01/feng-zhuang-ji-cheng-gou-zao-han-shu-super-he-this/"/>
-    <id>https://www.debugsrc.top/2019/01/01/feng-zhuang-ji-cheng-gou-zao-han-shu-super-he-this/</id>
-    <published>2018-12-31T16:00:00.000Z</published>
-    <updated>2022-01-08T20:11:33.977Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;面向对象思想&quot;&gt;&lt;a href=&quot;#面向对象思想&quot; class=&quot;headerlink&quot; title=&quot;面向对象思想&quot;&gt;&lt;/a&gt;面向对象思想&lt;/h1&gt;&lt;h3 id=&quot;构造器&quot;&gt;&lt;a href=&quot;#构造器&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="编程" scheme="https://www.debugsrc.top/categories/%E7%BC%96%E7%A8%8B/"/>
     
     
     <category term="学习笔记" scheme="https://www.debugsrc.top/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
